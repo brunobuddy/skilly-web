@@ -1,6 +1,6 @@
 ---
-title: "Houdini Karma Rendering: Solaris to Frames"
-description: "Render with Karma in Houdini: set up Solaris, choose CPU or XPU, configure samples and denoising, and export an image sequence with USD Render ROP."
+title: "Houdini Karma Tutorial: Solaris Render Settings to EXR"
+description: "Render with Karma in Houdini Solaris: pick Karma CPU or XPU, set Karma Render Settings, add denoising, then write EXR frames with a USD Render ROP."
 pubDate: 2026-06-29
 updatedDate: 2026-08-04
 author: "Mohamed Saleh Zaied"
@@ -37,14 +37,16 @@ howTo:
       text: "For network rendering, use the **HQueue** or render farm submission tool; for local farms, render in the background with `hrender` from the command line"
 faq:
   - question: "What's the fastest way to learn karma rendering in Houdini?"
-    answer: "Work through the steps on this page in Houdini itself, on your own project. For hands-free help, Skilly is a voice guide that watches your screen and moves your cursor to the exact button as you go — so you learn by doing instead of pausing a video. It's free to start at tryskilly.app."
+    answer: "Work through the steps on this page in Houdini itself, on your own project. For hands-free help, Skilly is a voice tutor that sees your screen and points at the exact button as you go, so you learn by doing instead of pausing a video. Skilly works in any Mac app; Houdini is available as a skill. 15-minute free trial, no card. Then $19/month hosted, or $5/month plus your own OpenAI usage."
   - question: "Do I need the paid version of Houdini?"
     answer: "No — everything in this karma rendering lesson works in the standard version of Houdini on macOS. A few advanced features may require a paid tier, which we call out where relevant."
-canonicalKeyword: "karma rendering houdini"
+canonicalKeyword: "houdini karma tutorial"
 relatedArticles: []
 ---
 
-This Houdini Karma tutorial takes a scene from Solaris setup to a saved image sequence. You will choose the correct render engine, create render settings, preview the result, reduce noise, and render final frames without guessing which node does what.
+**Quick answer:** in `/stage`, add a camera and lights, drop a **Karma Render Settings LOP**, preview with the Karma viewport renderer, then connect a **USD Render ROP** and render an EXR sequence.
+
+This Houdini Karma tutorial walks through each of those steps in Solaris: choosing Karma CPU or XPU, setting samples, denoising, and rendering final frames without guessing which node does what.
 
 > **Lesson 8 of the Houdini curriculum.** Next up: [Caching, Versioning, and Production Hygiene](/learn/houdini-caching-versioning-and-production-hygiene/).
 

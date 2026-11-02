@@ -1,6 +1,6 @@
 ---
-title: "Allow Screen Recording on Mac (Screen & System Audio)"
-description: "Turn on Screen & System Audio Recording in macOS Tahoe 26 and Sequoia 15: the exact settings path, the fix if your app is missing, and why to reopen it."
+title: "How to Allow Screen Recording on Mac (Tahoe & Sequoia)"
+description: "System Settings → Privacy & Security → Screen & System Audio Recording: turn the app on, then quit and reopen it. App not listed? Add it with the + button."
 pubDate: 2026-04-27
 updatedDate: 2026-08-04
 author: "Mohamed Saleh Zaied"
@@ -10,7 +10,7 @@ tags:
   - privacy
   - screen-recording
   - permissions
-canonicalKeyword: "enable screen recording permission macOS"
+canonicalKeyword: "how to allow screen recording on mac"
 howTo:
   totalTime: "PT2M"
   tools:
@@ -44,7 +44,9 @@ relatedArticles:
   - enable-accessibility-permission-macos
 ---
 
-If you've installed any Mac app that records, mirrors, or analyzes your screen — Zoom, OBS, Loom, CleanShot, Skilly, AnyDesk — you've hit macOS's Screen Recording permission gate. This guide is the up-to-date path through it.
+**Quick answer:** open **Apple menu → System Settings → Privacy & Security → Screen & System Audio Recording**, turn on the app, then quit it with `Cmd+Q` and reopen it. The permission only takes effect after that restart. If the app isn't in the list, click **+** below the list and add it from `/Applications`.
+
+The same steps apply to any Mac app that records, mirrors, or analyzes your screen: Zoom, OBS, Loom, CleanShot, Skilly, AnyDesk. The rest of this guide covers the panel names by macOS version, the weekly re-prompt, and what to do when the switch is on but the app still says access is denied.
 
 > Updated 2026-08-04 against Apple's official guide at [support.apple.com/guide/mac-help/control-access-screen-system-audio-recording-mchld6aa7d23/mac](https://support.apple.com/guide/mac-help/control-access-screen-system-audio-recording-mchld6aa7d23/mac). The procedure changed slightly in **Tahoe 26** (the panel is now called *Screen & System Audio Recording*) and gained a weekly re-prompt in **Sequoia 15** (15.0+).
 
@@ -119,10 +121,10 @@ The panel name on Tahoe 26 — "Screen & System Audio Recording" — is precise:
 
 ## Privacy posture for a screen-aware AI tutor (the Skilly version)
 
-Skilly only captures the screen while you're holding `Control+Option` and asking a question. The capture stops the moment Skilly's done answering — it's not a continuous stream. The video frames go to OpenAI Realtime for that question, and aren't stored on Skilly's servers. We block AI training corpus crawlers (CCBot) at the site level so nothing about how Skilly works leaks into model training.
+Skilly listens when you hold `Control+Option` and ask, or hands-free when you turn on Live Tutor. Audio and a live screenshot stream go to OpenAI only while you're talking, nothing is saved after the session, and Skilly's analytics never log transcripts, screenshots, or prompts.
 
-If you want the technical detail, the macOS API Skilly uses is `ScreenCaptureKit` — Apple's official, sandboxed screen capture API introduced in macOS 12.3. It's the same one Apple's own Screen Saver, Migration Assistant, and Continuity tools use. No private APIs, no LSUIElement workarounds. Developers handling display changes can use the production pattern in our [ScreenCaptureKit lid-close black-frame fix](/learn/screencapturekit-lid-close-fix/).
+If you want the technical detail, the macOS API Skilly uses is `ScreenCaptureKit`, Apple's official screen capture framework (introduced in macOS 12.3). Developers handling display changes can use the production pattern in our [ScreenCaptureKit lid-close black-frame fix](/learn/screencapturekit-lid-close-fix/).
 
 ## Try Skilly
 
-Skilly is the AI tutor that needs that screen recording permission you just figured out. Voice-first, watches your Mac screen, walks you through whatever app you're stuck in. **15 minutes free, no card.**
+Skilly is the AI tutor that needs the screen recording permission you just set up. Ask out loud, and it sees your Mac screen, answers out loud, and points at the button or menu to use next. It needs macOS 14.2 or later. 15-minute free trial, no card. Then $19/month hosted, or $5/month plus your own OpenAI usage.
