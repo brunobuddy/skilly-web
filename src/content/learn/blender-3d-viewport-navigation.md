@@ -2,7 +2,7 @@
 title: "Blender 3D Viewport Navigation (beginner guide)"
 description: "Learn to move around the 3D Viewport — the foundation for everything that follows. — step-by-step on Mac."
 pubDate: 2026-06-29
-updatedDate: 2026-06-29
+updatedDate: 2026-11-02
 author: "Mohamed Saleh Zaied"
 category: how-to
 series: "Blender"
@@ -42,7 +42,8 @@ faq:
   - question: "Do I need the paid version of Blender?"
     answer: "No — everything in this 3d viewport navigation lesson works in the standard version of Blender on macOS. A few advanced features may require a paid tier, which we call out where relevant."
 canonicalKeyword: "3d viewport navigation blender"
-relatedArticles: []
+relatedArticles:
+  - best-way-to-learn-blender
 ---
 
 Learn to move around the 3D Viewport — the foundation for everything that follows. Here's how to do it in **Blender** on macOS, step by step — part of the free Blender beginner curriculum.
@@ -68,4 +69,4 @@ Reading steps is one thing; doing them while the menus are in front of you is an
 
 ## Keep going
 
-This is one stage of the full **[Blender beginner curriculum](/learn/blender-tutorial-for-beginners/)**. Continue with [Object Mode and the Scene Hierarchy](/learn/blender-object-mode-and-the-scene-hierarchy/).
+This is one stage of the full **[Blender beginner curriculum](/learn/blender-tutorial-for-beginners/)**. Continue with [Object Mode and the Scene Hierarchy](/learn/blender-object-mode-and-the-scene-hierarchy/). Once orbiting feels automatic, the [project-first Blender learning roadmap](/learn/best-way-to-learn-blender/) is a useful way to pick a small project that makes this practice stick.

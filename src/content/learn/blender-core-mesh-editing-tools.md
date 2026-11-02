@@ -2,7 +2,7 @@
 title: "Blender Core Mesh Editing Tools (beginner guide)"
 description: "Build real 3D shapes using the five essential mesh editing operations. — step-by-step on Mac."
 pubDate: 2026-06-29
-updatedDate: 2026-06-29
+updatedDate: 2026-11-02
 author: "Mohamed Saleh Zaied"
 category: how-to
 series: "Blender"
@@ -36,7 +36,8 @@ faq:
   - question: "Do I need the paid version of Blender?"
     answer: "No — everything in this core mesh editing tools lesson works in the standard version of Blender on macOS. A few advanced features may require a paid tier, which we call out where relevant."
 canonicalKeyword: "core mesh editing tools blender"
-relatedArticles: []
+relatedArticles:
+  - best-way-to-learn-blender
 ---
 
 Build real 3D shapes using the five essential mesh editing operations. Here's how to do it in **Blender** on macOS, step by step — part of the free Blender beginner curriculum.
@@ -59,4 +60,4 @@ Reading steps is one thing; doing them while the menus are in front of you is an
 
 ## Keep going
 
-This is one stage of the full **[Blender beginner curriculum](/learn/blender-tutorial-for-beginners/)**. Continue with [Modifiers](/learn/blender-modifiers/).
+This is one stage of the full **[Blender beginner curriculum](/learn/blender-tutorial-for-beginners/)**. Continue with [Modifiers](/learn/blender-modifiers/). For how extrude, inset, and loop cut fit a first model, see the [project-first Blender learning roadmap](/learn/best-way-to-learn-blender/).
