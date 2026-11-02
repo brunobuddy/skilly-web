@@ -10,7 +10,7 @@
 export const prerender = false;
 
 export const GET = ({ request }: { request: Request }) => {
-  const destination = new URL('/download', request.url);
+  const destination = new URL('/download/', request.url);
   const sourceUrl = new URL(request.url);
   for (const key of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term']) {
     const value = sourceUrl.searchParams.get(key);

@@ -20,7 +20,7 @@ describe('tracked download URLs', () => {
   test('keeps source, medium, campaign, and content', () => {
     const href = trackedDownloadUrl('vs', 'vs_clicky_hero', 'clicky');
     expect(href).toBe(
-      '/download?utm_source=tryskilly-web&utm_medium=vs&utm_campaign=vs_clicky_hero&utm_content=clicky',
+      '/download/?utm_source=tryskilly-web&utm_medium=vs&utm_campaign=vs_clicky_hero&utm_content=clicky',
     );
   });
 });

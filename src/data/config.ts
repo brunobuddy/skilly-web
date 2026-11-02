@@ -20,7 +20,7 @@ export const BETA_CAP_REACHED = false;
  * Attribution-aware download handoff. The handoff page starts the release
  * download and exposes a `skilly://attribution` link for the first app launch.
  */
-export const DOWNLOAD_URL = '/download';
+export const DOWNLOAD_URL = '/download/';
 
 /**
  * People-funnel download link. /download reads utm_* into download_served.
