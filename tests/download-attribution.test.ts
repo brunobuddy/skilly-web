@@ -94,7 +94,7 @@ describe('download attribution handoff', () => {
     const location = response.headers.get('location');
 
     expect(response.status).toBe(302);
-    expect(location).toContain('/download?');
+    expect(location).toContain('/download/?');
     expect(location).toContain('utm_source=dmg_direct');
     expect(location).toContain('utm_medium=referral');
   });

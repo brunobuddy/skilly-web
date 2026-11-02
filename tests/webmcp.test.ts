@@ -49,7 +49,7 @@ describe('WebMCP facts', () => {
 
   test('download link keeps the sitewide medium and sets the webmcp campaign', () => {
     expect(macDownloadUrl()).toBe(
-      'https://tryskilly.app/download?utm_source=tryskilly-web&utm_medium=nav&utm_campaign=webmcp&utm_content=download',
+      'https://tryskilly.app/download/?utm_source=tryskilly-web&utm_medium=nav&utm_campaign=webmcp&utm_content=download',
     );
   });
 });
