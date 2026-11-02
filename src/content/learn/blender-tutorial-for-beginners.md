@@ -2,7 +2,7 @@
 title: "Blender tutorial for beginners (free curriculum)"
 description: "A free, step-by-step Blender curriculum for macOS beginners — 7 lessons from interface basics to lighting and rendering."
 pubDate: 2026-06-29
-updatedDate: 2026-06-29
+updatedDate: 2026-11-02
 author: "Mohamed Saleh Zaied"
 category: tutorial
 tags:
@@ -11,7 +11,8 @@ tags:
   - beginner
   - creative
 canonicalKeyword: "blender tutorial beginners"
-relatedArticles: []
+relatedArticles:
+  - best-way-to-learn-blender
 ---
 
 Learning **Blender** from scratch on a Mac? This is the full beginner curriculum — 7 hands-on lessons (about 8 hours total), in the order that actually makes sense, from the interface to lighting and rendering.
@@ -31,3 +32,5 @@ Each lesson is a real, do-it-yourself walkthrough. For hands-free help, [Skilly]
 ## How to use this
 
 Work top to bottom — each lesson builds on the last — or jump straight to what you're stuck on. Every page lists what you'll do, the exact menus and shortcuts, and the common mistakes to avoid.
+
+If you want a practice plan around these lessons, the [project-first Blender learning roadmap](/learn/best-way-to-learn-blender/) shows how to finish a small project instead of watching the whole curriculum first.
