@@ -2,6 +2,11 @@
 
 One dated entry per shipped change, newest first. Times are in Cairo (Africa/Cairo).
 
+## 2026-11-02
+
+- CTR rewrite (titles, metas, opening answer) on `/learn/enable-screen-recording-permission-macos/` (16,135 impr / 38 clicks, GSC Jul 30–Oct 30), `/learn/chatgpt-screen-sharing-mac/` (4,846 / 36) and `/learn/houdini-karma-rendering/` (3,880 / 13). Also aligned Skilly claims on those pages with `seo/context.md` (points, not clicks; canonical trial line; Live Tutor privacy wording).
+- Rank check: "how to allow screen recording on mac" read #17 in tracker 22479dba on 2026-10-30 (was #4 on 2026-10-27). Live SERP on 2026-11-02 shows the same URL at organic #4; no other tryskilly.app URL appears for the query in GSC. Treat the #17 as volatility after the Oct 28 title changes (c7ac1c6, 3d0b103), not a lasting drop. Spend: about 15 OpenSEO credits (~$0.02).
+
 ## 2026-10-29
 
 - In progress: WebMCP tools PR (`document.modelContext` read-only tools: get_pricing, get_download_link, list_supported_apps, join_waitlist). Requested by Skilly Growth after the Dedica agent-readiness scan scored 65/100.
