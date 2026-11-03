@@ -76,6 +76,7 @@ Hosted plan during the beta. Annual billing launches post-beta.
 
 ### Bring your own OpenAI key
 - Bring your own OpenAI key: $5/month plus your OpenAI usage
+- Setup guide: [Skilly OpenAI API key setup](https://tryskilly.app/learn/skilly-openai-key-setup/)
 
 ### Cancellation and guarantees
 - Cancel anytime from inside the app (Settings → Account → Manage subscription)
